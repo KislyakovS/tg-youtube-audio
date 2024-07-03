@@ -1,0 +1,19 @@
+{
+  "name": "tg-youtube-audio",
+  "version": "1.0.0",
+  "description": "Telegram bot for downloading audio from YouTube (via the link)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alexandr Kislyakov",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "ytdl-core": "^4.11.5"
+  }
+}
